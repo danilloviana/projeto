@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+
+  <meta charset="UTF-8">
+  <title> Cadastre-se </title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
+  <body>
+    
+
+  <div class="menu">
+    <h1 > Projeto Orientado </h1>
+
+  <nav>
+  <p>
+    <a href="index.html"> Home </a>|
+    <a href="danilloviana.html">Danillo Viana</a>|
+    <a href="willianrocha.html">Willian Rocha</a>|
+    <a href="tabeladecuriosidades.html">Tabela de curiosidades</a>|
+    <a href="sitesfavoritos.html"> Sites favoritos</a>|
+    <a href="tags.html">Descobrindo tags HTML</a>|
+    <a href="descobrindocss.html">Descobrindo propriedades CSS</a>|
+    <strong>Cadastre-se</strong> 
+    </p>
+    </nav>
+  </div>
+  <h2>Cadastre-se</h2>
+
+
+  <form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post">
+
+  <p><strong>Preencha os próximos campos com seus dados pessoais:</strong></p>
+  <div>
+  <label>
+  Nome <input type="text" name="Nome" size="33" maxlength="33" required>
+  </label><br>
+
+  <label>
+  E-mail <input type="email" name="Email" size="33" maxlength="33" required>
+  </label><br>
+
+  <label>
+  Número de telefone <input type="tel" name="Celular" size="15" maxlength="15" required>
+  </label><br>
+
+  <label>
+  Data de nascimento <input type="date" name="Data de nascimento">
+  </label><br>
+             
+  <label>
+  Sexo:<br>
+  Masculino <input type="radio" name="Sexo" value="Masculino">
+  </label><br>
+          
+  <label>
+  Feminino  <input type="radio" name="Sexo" value="Feminino">
+  </label><br>
+  </div>
+       
+  <p><strong>Preencha os próximos campos com os seus dados de endereço:</strong></p>
+
+  <div>
+  <label>
+  Estado <input type="text" name="Estado" size="30" maxlength="30"><br>
+  </label>
+
+  <label>
+  Cidade <input type="text" name="Cidade" size="30" maxlength="30"><br>
+  </label>
+      
+  <label>
+  Bairro <input type="text" name="Bairro" size="32" maxlength="32"><br>
+  </label>
+
+  <label> Rua <input type="text" name="Nome da rua" size="34" maxlength="34">
+  </label><br>
+
+  <label>
+  Número da casa <input type="text" name="Numero da casa" size="19" maxlength="19"><br>
+  </label>
+
+  <label>
+  Cep <input type="text" name="Cep" size="34" maxlength="34"><br>
+  </label>
+  </div>
+
+  <p><strong>Preencha os próximos campos com algumas informações extras:</strong></p>
+
+  <div>
+  <label>Deslize para mostrar o quanto você está satisfeito com este site<br>
+   <input type="range" name="Satisfação" min="0" step="5" max="10"> Nível de satisfação <br>
+  </label>
+
+  <label>Curso preferido na Fatec Rubéns Lara:</label><br>
+      <select  name="Curso preferido">
+      <option value="Selecione">Selecione:</option>
+        <option value="Analise e desenvolvimento de Sistemas">Análise e desenvolvimento de Sistemas</option>
+        <option value="Ciencia de dados">Ciência de Dados</option>
+        <option value="Gestao empresarial">Engenharia Empresarial</option>
+        <option value="Gestao portuaria">Gestão Portuária</option>
+        <option value="Gestao de rh">Gestão de Recursos Humanos</option>
+        <option value="Logistica">Logística</option>
+        <option value="Sistemas para internet">Sistemas para Internet</option>
+      </select>
+
+
+  <label>Conte um pouco mais sobre você:</label><br>
+  <textarea rows="6" style="width: 26em" name="Sobre você"></textarea>
+
+  </div>
+
+  <input type="submit" value="Cadastrar" class="botao">
+
+  <input type="reset" class="botao">
+  </form>
+
+
+  </body>
+</html>
